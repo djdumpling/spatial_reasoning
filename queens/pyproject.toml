@@ -1,0 +1,15 @@
+[project]
+name = "queens"
+description = "Queens placement puzzle - place one queen per row, column, and region with no touching"
+tags = ["puzzle", "multi-turn", "grid-based"]
+version = "0.1.0"
+requires-python = ">=3.12"
+dependencies = [
+    "numpy>=2.0.0",
+    "datasets>=3.0.0",
+    "verifiers>=0.1.5.post0",
+]
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
